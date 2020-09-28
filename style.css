@@ -1,0 +1,13 @@
+.sign__up-block {
+    display: inline;
+}
+.sign__up-block span {
+    font-weight: 900;
+}
+
+.create__user-block {
+    display: none;
+}
+.delete__user-block {
+    display: none;
+}

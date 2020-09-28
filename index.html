@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Lesson 7</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sign__up-block">
+            <p>Login to try: <span>Eugene</span>; Password: <span>123</span>; -- admin</p>
+            <p>Login to try: <span>Ivan</span>; Password: <span>123</span>; -- super user</p>
+            <p>Login to try: <span>Ihor</span>; Password: <span>123</span>; -- user</p>
+
+            <label for="">Login
+                <input type="text" id="login">
+            </label>
+
+            <label for="">Password
+                <input type="text" id="password">
+            </label>
+
+            <button id="sign__up">Sign up</button>
+        </div>
+
+        <div class="create__user-block">
+            <label for="">Type here login of new user
+                <input type="text" id="new__login">
+            </label>
+
+            <label for="">And password
+                <input type="text" id="new__password">
+            </label>
+
+            <button id="create__new-user">Create new user</button>
+            <button id="show__user-list">Show user list</button>
+        </div>
+
+        <div class="user-list">
+            <div class="inner__user-list">
+                <p class="user-p"></p>
+            </div>
+        </div>
+
+        <div class="delete__user-block">
+            <label for="">Type here the name
+                <input type="text" id="delete-input">
+            </label>
+
+            <button id="delete-user">Delete user by name</button>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
